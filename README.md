@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="header.svg?v=1" alt="Howdy Developer" />
+  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/header.svg?v=2" alt="Howdy Developer" />
 </p>

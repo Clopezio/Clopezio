@@ -1,1 +1,3 @@
-![Header](https://raw.githubusercontent.com/username/repo/main/header.svg?sanitize=true)   
+<p align="center">
+  <img src="header.svg" width="100%" />
+</p>

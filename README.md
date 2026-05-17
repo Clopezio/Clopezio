@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Clopezio/Clopezio/main/header.svg?token=123" alt="Howdy Developer" />
+  <object type="image/svg+xml" data="header.svg?clear-cache=true" width="800" height="120"></object>
 </p>

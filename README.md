@@ -1,3 +1,1 @@
-<p align="center">
-  <object type="image/svg+xml" data="header.svg?clear-cache=true" width="800" height="120"></object>
-</p>
+![Header](https://raw.githubusercontent.com/username/repo/main/header.svg?sanitize=true)   

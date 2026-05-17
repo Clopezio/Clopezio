@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="header.svg" alt="Howdy Developer" />
+  <img src="header.svg?v=1" alt="Howdy Developer" />
 </p>

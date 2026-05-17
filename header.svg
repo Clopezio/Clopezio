@@ -7,7 +7,7 @@
           30%, 80% { width: 380px }
         }
       </style>
-      <div style="font-family: monospace; font-size: 32px; background-color: #161b22; color: #7ee787; border: 1px solid #30363d; padding: 10px 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); display: inline-block; white-space: nowrap; overflow: hidden; animation: typing 3.5s steps(30, end) infinite;">> HOWDY DEVELOPER!</div>
+      <div style="font-family: monospace; font-size: 32px; background-color: #161b22; color: #7ee787; border: 1px solid #30363d; padding: 10px 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); display: inline-block; white-space: nowrap; overflow: hidden; animation: typing 30s steps(30, end) infinite;">> HOWDY DEVELOPER!</div>
     </div>
   </foreignObject>
 </svg>

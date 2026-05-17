@@ -14,18 +14,12 @@
           display: inline-block;
           white-space: nowrap;
           overflow: hidden;
-          border-right: 3px solid #7ee787;
           animation: typing 3.5s steps(30, end) infinite;
         }
 
         @keyframes typing {
           0%, 90%, 100% { width: 0 }
           30%, 80% { width: 380px }
-        }
-
-        @keyframes blink {
-          from, to { border-color: transparent }
-          50% { border-color: #7ee787; }
         }
       </style>
       <div class="kbd-box">> HOWDY DEVELOPER!</div>

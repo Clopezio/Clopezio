@@ -1,34 +1,3 @@
-<svg fill="none" viewBox="0 0 800 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;">
-      <style>
-        .kbd-box {
-          font-family: 'Fira Code', monospace; 
-          font-size: 32px; 
-          background-color: #161b22; 
-          color: #7ee787; 
-          border: 1px solid #30363d; 
-          padding: 10px 20px; 
-          border-radius: 10px; 
-          box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-          display: inline-block;
-          white-space: nowrap;
-          overflow: hidden;
-          border-right: 3px solid #7ee787;
-          animation: typing 3.5s steps(30, end) infinite, blink .75s step-end infinite;
-        }
-
-        @keyframes typing {
-          0%, 90%, 100% { width: 0 }
-          30%, 80% { width: 380px }
-        }
-
-        @keyframes blink {
-          from, to { border-color: transparent }
-          50% { border-color: #7ee787; }
-        }
-      </style>
-      <div class="kbd-box">> HOWDY DEVELOPER!</div>
-    </div>
-  </foreignObject>
-</svg>
+<p align="center">
+  <img src="header.svg" alt="Howdy Developer" />
+</p>

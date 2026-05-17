@@ -1,13 +1,48 @@
 <svg fill="none" viewBox="0 0 800 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; background-color: #121619;">
       <style>
         @keyframes typing {
-          0%, 90%, 100% { width: 0 }
-          30%, 80% { width: 380px }
+          from { width: 0; }
+          to { width: 100%; } 
+        }
+        @keyframes blink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0; }
+        }
+        
+        .terminal-box {
+          font-family: 'Fira Code', monospace; 
+          font-size: 32px; 
+          background-color: #121619; 
+          color: #7ee787; 
+          border: 1px solid #30363d; 
+          padding: 10px 20px; 
+          border-radius: 10px; 
+          box-shadow: 0 4px 10px rgba(0,0,0,0.5); 
+          display: inline-flex; /* Use flex to align text and cursor */
+          align-items: center;
+          white-space: nowrap; 
+          overflow: hidden; 
+        }
+
+        .typing-text {
+          display: inline-block;
+          overflow: hidden;
+          width: 0;
+          animation: typing 2s steps(18, end) forwards; /* Typing executes ONCE */
+        }
+
+        .cursor {
+          display: inline-block;
+          margin-left: 2px; /* Small gap between text and cursor */
+          color: #7ee787; /* Match text color */
+          animation: blink 0.75s step-end infinite; /* Blink loops FOREVER */
         }
       </style>
-      <div style="font-family: monospace; font-size: 32px; background-color: #161b22; color: #7ee787; border: 1px solid #30363d; padding: 10px 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); display: inline-block; white-space: nowrap; overflow: hidden; animation: typing 30s steps(30, end) infinite;">> HOWDY DEVELOPER!</div>
+      <div class="terminal-box">
+        <span class="typing-text">> HOWDY DEVELOPER!</span><span class="cursor">|</span>
+      </div>
     </div>
   </foreignObject>
 </svg>
